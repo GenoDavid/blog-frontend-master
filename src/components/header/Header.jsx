@@ -50,7 +50,7 @@ const Header = () => {
 
                 <form onSubmit={handlesubmit}>
                     <input onChange={e => setSearch(e.target.value)} className={classes.search} placeholder='search here' />
-                    <button><BiSearch /></button>
+                    <button className={classes.srac}><BiSearch /></button>
                 </form>
 
             </div>

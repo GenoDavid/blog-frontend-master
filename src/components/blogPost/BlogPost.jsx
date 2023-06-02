@@ -36,10 +36,6 @@ const BlogPost = ({ val }) => {
                 </div>
             </Col>
 
-            {/* <Col lg='2'>
-
-            </Col> */}
-
         </>
 
 

@@ -33,6 +33,13 @@
     border: none;
 }
 
+.srac {
+    background: none;
+    outline: none;
+    border: none;
+    margin-left: -20px;
+}
+
 .links {
     display: flex;
     align-items: center;

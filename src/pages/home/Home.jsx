@@ -43,19 +43,41 @@ const Home = () => {
 
                 </Col>
                 <Col lg='4'>
-                    <div className={classes.head}>
-                        <h1>hai</h1>
-                        <div className={classes.box}>
-                            <img className={classes.img} />
-                            <a target='_blank' href="https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html">Click Me</a>
-                        </div>
-                        <a target='_blank' href='https://timesofindia.indiatimes.com/entertainment/english/web-stories/11-must-watch-films-of-clint-eastwood/photostory/100653712.cms'>Click Me</a>
-                    </div>
-                    <div className={classes.header}>
+                    <div className={classes.top}>
+                        <div className={classes.head}>
+                            <h1 className={classes.para}>Links</h1>
+                            <div className={classes.scroll}>
 
-                    </div>
-                    <div className={classes.headers}>
-                        <Link>https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html</Link>
+
+                            </div>
+
+                        </div>
+                        <div className={classes.header}>
+                            <h1 className={classes.para}>Help Lines</h1>
+                            <div className={classes.scroll}>
+                                <p>325-568-56</p>
+                                <p>325-568-56</p>
+                                <p>325-568-56</p>
+                                <p>325-568-56</p>
+                                <p>325-568-56</p>
+                                <p>325-568-56</p>
+                                <p>325-568-56</p>
+                                <p>325-568-56</p>
+                            </div>
+                        </div>
+                        <div className={classes.headers}>
+                            <h1 className={classes.para}>Service</h1>
+                            <div className={classes.scroll}>
+                                <p>jcyehvwuey</p>
+                                <p>jcyehvwuey</p>
+                                <p>jcyehvwuey</p>
+                                <p>jcyehvwuey</p>
+                                <p>jcyehvwuey</p>
+                                <p>jcyehvwuey</p>
+                                <p>jcyehvwuey</p>
+                                <p>jcyehvwuey</p>
+                            </div>
+                        </div>
                     </div>
                 </Col>
             </Row>
