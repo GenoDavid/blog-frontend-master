@@ -1,0 +1,29 @@
+.container {
+
+    /* background-color: rgba(243, 230, 230, 0.114); */
+}
+
+
+.head {
+    width: 550px;
+    height: 500px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
+
+.header {
+    width: 550px;
+    height: 500px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
+
+.headers {
+    width: 550px;
+    height: 500px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
