@@ -102,6 +102,7 @@ const Creatlink = () => {
                                     </Col>
                                     <Col md='6'>
                                         <input
+                                            value={myFormik.values.title}
                                             name='title'
                                             type="text"
                                             placeholder="Title"
