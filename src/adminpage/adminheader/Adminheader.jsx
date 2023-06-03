@@ -7,15 +7,10 @@ const AdminHeader = () => {
     const dispatch = useDispatch()
     const navigator = useNavigate()
 
-
-    // const onlogout = () => {
-    //     dispatch(logout())
-    //     navigator(`/admin/login`)
-    // }
     return (
         <div className={classes.container}>
             <div className={classes.box1}>
-                {/* <img src={logo} /> */}
+
             </div>
             <div className={classes.box2}>
                 {/* <h4>{user.name}</h4> */}
@@ -27,7 +22,10 @@ const AdminHeader = () => {
                     <Link to={'link'}>Link</Link>
                 </button>
                 <button>
-                    Logout
+                    <Link to={'/home'}>Home</Link>
+                </button>
+                <button>
+                    <Link to={'adminlink'}>Admin</Link>
                 </button>
             </div>
         </div>

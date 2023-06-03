@@ -1,7 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-    data: []
+    data: [],
+    links: []
 }
 const LinkSlice = createSlice({
     name: 'post',
@@ -10,10 +11,13 @@ const LinkSlice = createSlice({
         addData: (state, action) => {
             state.data = action.payload
         },
+        linksData: (state, action) => {
+            state.links = action.payload
+        },
     }
 })
 
 
-export const { addData } = LinkSlice.actions
+export const { addData, linksData } = LinkSlice.actions
 
 export default LinkSlice.reducer

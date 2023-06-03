@@ -9,7 +9,7 @@
 
 .head {
     width: 400px;
-    height: 200px;
+    height: 400px;
     cursor: pointer;
     margin-bottom: 20px;
     background-color: gray;
@@ -23,15 +23,17 @@
 }
 
 .para {
+    margin-top: 5px;
     text-align: center;
+    color: red;
 }
 
 .header {
     width: 400px;
-    height: 200px;
+    height: 400px;
     cursor: pointer;
     margin-bottom: 20px;
-    background-color: antiquewhite;
+    background-color: gray;
     overflow-y: scroll;
     overflow-x: scroll;
     border-top-left-radius: 50px;
@@ -39,11 +41,17 @@
 
 .headers {
     width: 400px;
-    height: 200px;
+    height: 400px;
     cursor: pointer;
     margin-bottom: 20px;
-    background-color: antiquewhite;
+    background-color: gray;
     overflow-y: scroll;
     overflow-x: scroll;
     border-top-left-radius: 50px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
 }

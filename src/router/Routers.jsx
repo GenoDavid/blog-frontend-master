@@ -35,11 +35,10 @@ const Router = () => {
                         <>
                             <Route path='/adminmain' element={<Adminmain />} >
                                 <Route path='write' element={<Write />} />
+                                {/* <Route path='/adminmain' element={<Navigate to={'/adminlink'} />} /> */}
                                 <Route path='adminlink' element={<Adminhome />} />
                                 <Route path='link' element={<Creatlink />} />
                             </Route>
-
-                            {/* <Route path='profile' element={<Profile />} /> */}
                         </>
 
                     ) : (<></>)

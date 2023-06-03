@@ -58,11 +58,14 @@ const Creatlink = () => {
             try {
                 setisLoding(true)
                 console.log('sumbit');
-                const res = await axios.post(`${link}/post/post`, values);
+                const res = await axios.post(`${link}/link/post`, values);
+                values.title = ''
                 console.log(res);
                 setisLoding(false)
                 // window.location.replace("/post/" + res.data._id);
             } catch (err) { }
+            values.file = ''
+            values.title = ''
         }
     })
 
